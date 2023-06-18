@@ -287,9 +287,9 @@ compress                      iteration 15   240000         240000         2776.
 ---
 方差齐性检验：
 ![方差齐性检验](https://img-blog.csdnimg.cn/659197f11e264d95b48052d0fba0660f.png)
-如果方差齐性检验通过，则执行student's t test，否则执行Welch's t-test，标*则认为存在显著性差异
+如果方差齐性检验通过，则执行student's t test，否则执行Welch's t-test，标\*则认为存在显著性差异
 ![显著性差异](https://img-blog.csdnimg.cn/89f4c4e11565454fadb298bd623cc5e4.png)
-这个结果显示标*的组存在显著性差异。
+这个结果显示标\*的组存在显著性差异。
 
 我认为两次测量结果相差比较大，在测量的方法上还存在欠缺（WSL难以排除其他Windows进程的干扰）。两次结果相同的地方似乎只有Oracle jdk8 202版本这一组的数据相较其他组存在显著差异。
 
