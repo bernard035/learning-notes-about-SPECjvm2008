@@ -1,0 +1,96 @@
+================================
+SPECjvm2008 Peak
+================================
+n/a n/a
+Oracle Corporation Java HotSpot(TM) 64-Bit Server VM
+Tested by: n/a Test date: Sun Jun 11 19:27:41 CST 2023
+Run is valid, but not compliant
+
+================================
+compress                      693.35                                  
+Noncompliant composite result: 693.35 ops/m
+================================
+
+
+Submitter                     n/a                                     
+Submitter URL                 n/a                                     
+SPEC license                  n/a                                     
+Tester                        xyjiang                                 
+Location                      n/a                                     
+Test date:                    Sun Jun 11 19:27:41 CST 2023            
+OS name                       Linux                                   
+OS available                  n/a                                     
+OS address bits               n/a                                     
+OS tuning                                                             
+Filesystem                    n/a                                     
+Other s/w name                                                        
+Other s/w tuning                                                      
+Other s/w available                                                   
+Vendor                        Oracle Corporation                      
+Vendor URL                    http://java.oracle.com/                 
+JVM name                      Java HotSpot(TM) 64-Bit Server VM       
+JVM version                   25.202-b08 mixed mode                   
+JVM available                 n/a                                     
+Java Specification            1.8                                     
+JVM address bits              64                                      
+JVM initial heap memory       n/a                                     
+JVM maximum heap memory       n/a                                     
+JVM command line              n/a                                     
+JVM command line startup                                              
+JVM launcher startup          default                                 
+Additional JVM tuning                                                 
+JVM class path                SPECjvm2008.jar                         
+JVM boot class path           /opt/oracle_jdk1.8.0_202/jre/lib/resources.jar:/opt/oracle_jdk1.8.0_202/jre/lib/rt.jar:/opt/oracle_jdk1.8.0_202/jre/lib/sunrsasign.jar:/opt/oracle_jdk1.8.0_202/jre/lib/jsse.jar:/opt/oracle_jdk1.8.0_202/jre/lib/jce.jar:/opt/oracle_jdk1.8.0_202/jre/lib/charsets.jar:/opt/oracle_jdk1.8.0_202/jre/lib/jfr.jar:/opt/oracle_jdk1.8.0_202/jre/classes
+HW vendor                     n/a                                     
+HW vendor's URL               n/a                                     
+HW model                      n/a                                     
+HW available                  n/a                                     
+CPU vendor                    n/a                                     
+CPU vendor's URL              n/a                                     
+CPU name                      n/a                                     
+CPU frequency                 n/a                                     
+# of logical cpus             n/a                                     
+# of chips                    n/a                                     
+# of cores                    n/a                                     
+Cores per chip                n/a                                     
+Threads per core              n/a                                     
+Threading enabled             n/a                                     
+HW address bits               n/a                                     
+Primary cache                 n/a                                     
+Secondary cache               n/a                                     
+Other cache                   n/a                                     
+Memory size                   n/a                                     
+Memory details                n/a                                     
+Other HW details              n/a                                     
+
+Property specjvm.maxiter must be 1 for publication.
+Property specjvm.miniter must be 1 for publication.
+Not a compliant sequence of benchmarks for publication.
+Property specjvm.run.checksum.validation must be true for publication.
+
+Details of Runs
+---------------
+PASSED
+
+Benchmark                     Iteration      Expected(ms)   Actual(ms)     Operations     ops/m          
+---------------------------------------------------------------------------------------------------
+
+compress                      warmup         120000         120000         1348.58        674.29         
+compress                      iteration 1    240000         240000         2712.59        678.15         
+compress                      iteration 2    240000         240000         2709.13        677.28         
+compress                      iteration 3    240000         240000         2737.84        684.46         
+compress                      iteration 4    240000         240000         2705.39        676.35         
+compress                      iteration 5    240000         240000         2773.42        693.35         
+compress                      iteration 6    240000         240000         2668.66        667.16         
+compress                      iteration 7    240000         240000         2657.45        664.36         
+compress                      iteration 8    240000         240000         2643.21        660.80         
+compress                      iteration 9    240000         240000         2666.88        666.72         
+compress                      iteration 10   240000         240000         2668.32        667.08         
+compress                      iteration 11   240000         240000         2683.72        670.93         
+compress                      iteration 12   240000         240000         2686.89        671.72         
+compress                      iteration 13   240000         240000         2687.97        671.99         
+compress                      iteration 14   240000         240000         2698.49        674.62         
+compress                      iteration 15   240000         240000         2705.24        676.31         
+
+SPECjvm2008 Version: [SPECjvm2008 1.01 (20090519)]
+Copyright (C) 2008-2023 SPEC. All rights reserved

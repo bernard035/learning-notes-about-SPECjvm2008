@@ -1,0 +1,96 @@
+================================
+SPECjvm2008 Peak
+================================
+n/a n/a
+Tencent OpenJDK 64-Bit Server VM
+Tested by: n/a Test date: Sat Jun 17 14:40:28 CST 2023
+Run is valid, but not compliant
+
+================================
+compress                      710.38                                  
+Noncompliant composite result: 710.38 ops/m
+================================
+
+
+Submitter                     n/a                                     
+Submitter URL                 n/a                                     
+SPEC license                  n/a                                     
+Tester                        xyjiang                                 
+Location                      n/a                                     
+Test date:                    Sat Jun 17 14:40:28 CST 2023            
+OS name                       Linux                                   
+OS available                  n/a                                     
+OS address bits               n/a                                     
+OS tuning                                                             
+Filesystem                    n/a                                     
+Other s/w name                                                        
+Other s/w tuning                                                      
+Other s/w available                                                   
+Vendor                        Tencent                                 
+Vendor URL                    http://jdk.oa.com/                      
+JVM name                      OpenJDK 64-Bit Server VM                
+JVM version                   25.372-b1 mixed mode, sharing           
+JVM available                 n/a                                     
+Java Specification            1.8                                     
+JVM address bits              64                                      
+JVM initial heap memory       n/a                                     
+JVM maximum heap memory       n/a                                     
+JVM command line              n/a                                     
+JVM command line startup                                              
+JVM launcher startup          default                                 
+Additional JVM tuning                                                 
+JVM class path                SPECjvm2008.jar                         
+JVM boot class path           /opt/TencentKona-8.0.14-372/jre/lib/resources.jar:/opt/TencentKona-8.0.14-372/jre/lib/rt.jar:/opt/TencentKona-8.0.14-372/jre/lib/sunrsasign.jar:/opt/TencentKona-8.0.14-372/jre/lib/jsse.jar:/opt/TencentKona-8.0.14-372/jre/lib/jce.jar:/opt/TencentKona-8.0.14-372/jre/lib/charsets.jar:/opt/TencentKona-8.0.14-372/jre/lib/jfr.jar:/opt/TencentKona-8.0.14-372/jre/classes
+HW vendor                     n/a                                     
+HW vendor's URL               n/a                                     
+HW model                      n/a                                     
+HW available                  n/a                                     
+CPU vendor                    n/a                                     
+CPU vendor's URL              n/a                                     
+CPU name                      n/a                                     
+CPU frequency                 n/a                                     
+# of logical cpus             n/a                                     
+# of chips                    n/a                                     
+# of cores                    n/a                                     
+Cores per chip                n/a                                     
+Threads per core              n/a                                     
+Threading enabled             n/a                                     
+HW address bits               n/a                                     
+Primary cache                 n/a                                     
+Secondary cache               n/a                                     
+Other cache                   n/a                                     
+Memory size                   n/a                                     
+Memory details                n/a                                     
+Other HW details              n/a                                     
+
+Property specjvm.maxiter must be 1 for publication.
+Property specjvm.miniter must be 1 for publication.
+Not a compliant sequence of benchmarks for publication.
+Property specjvm.run.checksum.validation must be true for publication.
+
+Details of Runs
+---------------
+PASSED
+
+Benchmark                     Iteration      Expected(ms)   Actual(ms)     Operations     ops/m          
+---------------------------------------------------------------------------------------------------
+
+compress                      warmup         120000         120000         1365.93        682.97         
+compress                      iteration 1    240000         240000         2664.85        666.21         
+compress                      iteration 2    240000         240000         2702.75        675.69         
+compress                      iteration 3    240000         240000         2706.60        676.65         
+compress                      iteration 4    240000         240000         2709.98        677.50         
+compress                      iteration 5    240000         240000         2736.24        684.06         
+compress                      iteration 6    240000         240000         2762.78        690.70         
+compress                      iteration 7    240000         240000         2817.31        704.33         
+compress                      iteration 8    240000         240000         2834.28        708.57         
+compress                      iteration 9    240000         240000         2833.27        708.32         
+compress                      iteration 10   240000         240000         2826.15        706.54         
+compress                      iteration 11   240000         240000         2838.10        709.52         
+compress                      iteration 12   240000         240000         2841.51        710.38         
+compress                      iteration 13   240000         240000         2835.76        708.94         
+compress                      iteration 14   240000         240000         2774.24        693.56         
+compress                      iteration 15   240000         240000         2776.13        694.03         
+
+SPECjvm2008 Version: [SPECjvm2008 1.01 (20090519)]
+Copyright (C) 2008-2023 SPEC. All rights reserved
